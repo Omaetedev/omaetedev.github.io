@@ -34,15 +34,26 @@ hr {
 }
 
 .btn {
-  margin: 0 20px;
+  margin: 10px 5px;
   font-weight: 700;
   border-radius: 300px;
   text-transform: uppercase;
 }
 
+.btn:hover {
+  background-color: #CFB284;
+  border-color: #CFB284;
+  border-width: 4px;
+  pointer-events: cursor;
+}
+
 .btn-primary {
   background-color: #DFCAA0;
   border-color: #DFCAA0;
+  --bs-btn-hover-bg: #CFB284;
+  --bs-btn-hover-border-color: #CFB284;
+  --bs-btn-active-bg: #CFB284;
+  --bs-btn-active-border-color: #CFB284;
 }
 .btn-primary:hover {
   background-color: #CFB284;
@@ -54,5 +65,3 @@ hr {
 .btn-xl {
   padding: 1rem 2rem;
 }
-
-
